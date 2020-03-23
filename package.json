@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mkp0131/youtube-clone-20200323/issues"
   },
-  "homepage": "https://github.com/mkp0131/youtube-clone-20200323#readme"
+  "homepage": "https://github.com/mkp0131/youtube-clone-20200323#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

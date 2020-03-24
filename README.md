@@ -3,5 +3,5 @@ make a youtube use JS
 
 ## 개발일지
 ### 20200324
-- git setting
-- node setting
+1. git setting
+2. node setting

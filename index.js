@@ -1,9 +1,6 @@
-const express = require('express')
+// const express = require('express')
+import express from "express";
 const app = express()
-
-app.get('/', function (req, res) {
-	res.send('Hello World');
-})
 
 
 // 포트설정
@@ -13,5 +10,11 @@ const PORT = 3000;
 function handleListening() {
 	console.log(`Listening on: http://localhost:${PORT}`);
 }
+
+function handleHome(req, res) {
+	res.send('Yahoooooo')
+}
+
+app.get('/', handleHome);
 
 app.listen(PORT, handleListening);

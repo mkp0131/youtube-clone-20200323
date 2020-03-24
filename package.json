@@ -4,8 +4,8 @@
   "description": "make a youtube use JS",
   "main": "index.js",
   "scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "homepage": "https://github.com/mkp0131/youtube-clone-20200323#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0"
   }
 }

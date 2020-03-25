@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node index.js"
+    "start": "npx nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/mkp0131/youtube-clone-20200323#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

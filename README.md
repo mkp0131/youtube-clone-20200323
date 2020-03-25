@@ -10,3 +10,6 @@ make a youtube use JS
 1. express setting
 2. babel setting
 3. nodemon setting
+
+### 20200326
+1. express middleware setting

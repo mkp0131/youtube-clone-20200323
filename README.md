@@ -9,3 +9,4 @@ make a youtube use JS
 ### 20200325
 1. express setting
 2. babel setting
+3. nodemon setting

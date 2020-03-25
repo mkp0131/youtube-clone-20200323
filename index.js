@@ -1,4 +1,3 @@
-// const express = require('express')
 import express from "express";
 const app = express()
 
@@ -7,12 +6,12 @@ const app = express()
 const PORT = 3000;
 
 // console.log 로 현재 포트를 출력
-function handleListening() {
+const handleListening = () => {
 	console.log(`Listening on: http://localhost:${PORT}`);
 }
 
-function handleHome(req, res) {
-	res.send('Yahoooooo')
+const handleHome = (req, res) => {
+	res.send('Yahoooooo');
 }
 
 app.get('/', handleHome);

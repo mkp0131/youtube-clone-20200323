@@ -22,8 +22,8 @@ app.use(morgan('dev'));
 
 
 app.use(routes.home, globalRouter);
-app.use(routes.user, userRouter);
-// app.use(routes.video, videoRouter);
+app.use(routes.users, userRouter);
+app.use(routes.videos, videoRouter);
 
 
 

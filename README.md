@@ -12,4 +12,4 @@ make a youtube use JS
 3. nodemon setting
 
 ### 20200326
-1. express middleware setting
+1. express middleware setting (cookie-parser, body-parser)

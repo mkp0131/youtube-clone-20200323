@@ -8,9 +8,9 @@ import userRouter from './routers/userRouter';
 import videoRouter from './routers/videoRouter';
 import routes from './routes';
 
-
 const app = express();
 
+app.set('view engine', 'pug');
 app.use(cookieParser());
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));

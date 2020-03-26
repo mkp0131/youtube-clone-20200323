@@ -1,1 +1,1 @@
-export const home = (req, res) => res.send('global index@@@');
+export const home = (req, res) => res.render('index');

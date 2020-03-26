@@ -14,3 +14,6 @@ make a youtube use JS
 ### 20200326
 1. express middleware setting (cookie-parser, body-parser)
 2. router setting
+
+### 20200327
+1. view engine: pug

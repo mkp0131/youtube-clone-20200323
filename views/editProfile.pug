@@ -1,0 +1,13 @@
+extends layouts/main.pug
+
+block content
+	h2 개인정보수정
+	.form-container
+		form(action="", method="post")
+			.form__row
+				input(type="test", name="name" placeholder="이름을 입력해주세요.")
+			.form__row
+				input(type="file", name="")
+			.form__row
+				button(type="submit") 수정하기
+

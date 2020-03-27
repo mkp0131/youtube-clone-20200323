@@ -28,3 +28,5 @@ make a youtube use JS
  - [x] Upload
  - [x] Video Detail
  - [x] Edit Video
+
+** 페이지마다 페이지 타이틀 필요!

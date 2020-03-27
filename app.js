@@ -7,10 +7,12 @@ import globalRouter from './routers/globalRouter';
 import userRouter from './routers/userRouter';
 import videoRouter from './routers/videoRouter';
 import routes from './routes';
+import { localMiddleware } from "./middlewares";
 
 const app = express();
 
 app.use(helmet());
+app.use(localMiddleware);
 app.set('view engine', 'pug');
 app.use(cookieParser());
 // parse application/x-www-form-urlencoded

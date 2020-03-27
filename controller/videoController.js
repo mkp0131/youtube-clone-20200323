@@ -1,3 +1,3 @@
 import routes from '../routes';
 
-export const home = (req, res) => res.render('home', {routes: routes});
+export const home = (req, res) => res.render('home');

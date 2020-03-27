@@ -1,5 +1,9 @@
 header
-	.header__logo Youtube-clone
+	.header__logo
+		a(href=routes.home) #{siteName}
+	.header__search
+		form(action=routes.search, method="get")
+			input(type="text" name="k" placeholder="Search")
 	.header__menu
 		div
 			a(href=routes.login) login

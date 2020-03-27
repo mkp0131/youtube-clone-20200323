@@ -1,0 +1,11 @@
+extends layouts/main.pug
+
+block content
+	h2 로그인
+	.form__container
+		.form__row
+			form(action="", method="post")
+				input(type="email", name="email" placeholder="이메일을 입력해주세요.")
+				input(type="password", name="password" placeholder="비밀번호를 입력해주세요.")
+				button(type="submit") 로그인
+

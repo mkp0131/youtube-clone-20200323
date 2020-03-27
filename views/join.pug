@@ -1,0 +1,17 @@
+extends layouts/main.pug
+
+block content
+	h2 회원가입
+	.form__container
+		form(action="", method="post")
+			.form__row
+				input(type="test", name="name" placeholder="이름을 입력해주세요.")
+			.form__row
+				input(type="email", name="email" placeholder="이메일을 입력해주세요.")
+			.form__row
+				input(type="password", name="password" placeholder="패스워드를 입력해주세요.")
+			.form__row
+				input(type="password2", name="password2" placeholder="동일한 패스워드를 입력해주세요.")
+			.form__row
+				button(type="submit") 회원가입
+		include ./partitials/social-login.pug

@@ -1,4 +1,6 @@
-export const join = (req, res) => res.send('global join');
-export const login = (req, res) => res.send('global login');
+export const join = (req, res) => res.render('join');
+
+export const login = (req, res) => res.render('login');
+
 export const logout = (req, res) => res.send('global logout');
 
